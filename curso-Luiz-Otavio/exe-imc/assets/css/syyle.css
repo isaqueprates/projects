@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #07a4ff73;
+    --font1:'Inter', sans-serif;
+    --font2:'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: var(--font2);
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.conteiner {
+    max-width: 740px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* tabela IMC */
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+#conteiner-tabela {
+    columns: 2;
+    font-weight: 600;
+}
+
+ul {
+   padding: 0;
+}
+
+li {
+    list-style-type: none;   
+}
+
+h3 {
+    margin:0;
+}
+/* form */
+input, label{
+    display: block;
+    font-weight: 600;
+}
+
+input, button {
+    width: 100%;
+    margin: 8px 0 5px;
+    font-size: 20px; 
+    padding: 8px;
+}
+
+button {
+    background-color: var(--primary-color);     
+    font-weight: bold; 
+}
+/* resultado */
+.resultado {
+    display: block;
+    font-weight: 700;
+    background-color: #ff2c079c;
+}
