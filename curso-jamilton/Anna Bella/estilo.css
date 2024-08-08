@@ -5,20 +5,15 @@
 }
 
 #principal{
-	border: 1px solid blue;
 	width: 900px;
-	
-
 }
 
 .fundo2{
-	border: 0px  inset blue;
 	color: black;
 	background:#d2d2c1 ;
 	padding: 20px;
 	width: 860px;
 	margin-top: 1px;
-
 }
 
 .texto{

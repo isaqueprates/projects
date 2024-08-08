@@ -1,0 +1,121 @@
+#primary{
+    width: 555px;
+    float:right;
+    margin-bottom: 10px;
+}
+
+.img-post{
+    width: 530px;
+}
+
+.post{
+    padding: 5px;
+    background: url(../image/fundo-caixa.png);
+}
+
+.title{
+    color: #fff;
+    padding: 5px;
+    margin:0 0 8px 0;
+    background: #284b70;
+}
+
+.sub-primary{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 4px 0;
+    background: #b00434;
+}
+
+.bg-post{
+    background: #fff;
+    padding: 6px;
+}
+
+.menu-lateral{
+    width: 175px; 
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+#navigation-lateral{
+    background: #fff;
+    margin-bottom: 8px;
+}               
+
+#navigation-lateral ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#navigation-lateral li{
+    padding: 10px;
+}
+
+#navigation-lateral a{
+    color: #494949;
+}
+
+#form{
+    background: #fff;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#form input{
+    width: 130px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+#form button{
+    width: 80px;
+    padding: 5px;
+    color: #fff;
+    border: 2px solid #750021;
+    background: #b00434;
+}
+
+.post ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post li {
+    width: 260px;
+    padding: 5px;
+    display: flex;
+    background: #fff;
+    border-bottom: 1px solid #cccccc;
+}
+
+.post li img {
+    width: 90px;
+    height: 60px;
+}
+
+.post h4 {
+    font-size: 13px;
+    margin: 0 0 0 10px;
+}
+
+.bg-post p {
+    font-size: 17px;
+}
+
+.post li p {
+    font-size: 12px;
+    margin: 0 0 0 10px;
+}
+
+.title-card{
+    color: #3d7abf;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", Helvetica, sans-serif;
+}
+
+#bg-principal{
+    background: url(imagens/fundo.png);
+}
+
+.bg-second{
+    background: url(imagens/fundo2.png);
+}
+
+#container{
+    width: 74vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    /* padding: 10px; */
+    margin: 23px 5px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a {
+    margin: 0 8px;
+}
+
+.menu a:hover{
+    border-bottom: 1px solid;
+}
+
+.img{
+    width: 74vw;
+}
+
+.img img{
+    width: 73.9vw;
+}
+
+.post{
+    padding: 5px;
+}
+
+.post h2{
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.post p{
+    text-align: justify;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.tb{
+    margin: 20px 40px;
+}
+
+.tb li{
+    list-style-type: decimal;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.form button{
+    margin-top: 8px;
+}
+
+footer{
+    text-align: right;
+    margin: 10px;
+}

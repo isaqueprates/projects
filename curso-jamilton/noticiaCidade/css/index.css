@@ -1,0 +1,159 @@
+#primary{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background: #e02222;
+}
+
+h3{
+font-size: 16px;
+}
+
+.post{
+    width: 270px;
+    padding: 5px;
+    background: url(../image/fundo-caixa.png);
+}
+
+.title{
+    color: #fff;
+    padding: 5px;
+    margin:0 0 8px 0;
+    background: #284b70;
+}
+
+.bg-post{
+    background: #fff;
+    padding: 6px;
+}
+
+.sub-primary{
+    text-transform: uppercase;
+    color: #fff;
+    background: #b00434;
+}
+
+.img-post{
+    width: 250px;
+    height: 150px;
+    border: 3px solid #dedede;
+}
+
+.post img{
+    width: 250px;
+}
+
+.post a {
+    color: #c20433;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.post ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.post li {
+    width: 260px;
+    padding: 5px;
+    display: flex;
+    background: #fff;
+    border-bottom: 1px solid #cccccc;
+}
+
+.post li img {
+    width: 90px;
+    height: 60px;
+}
+
+.post h4 {
+    font-size: 13px;
+    margin: 0 0 0 10px;
+}
+
+.bg-post p {
+    font-size: 17px;
+}
+
+.post li p {
+    font-size: 12px;
+    margin: 0 0 0 10px;
+}
+
+.title-card{
+    color: #3d7abf;
+}
+
+#second{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    background: indigo;
+}
+
+.subTitle-second{
+    text-transform: uppercase;
+    color: #070707;
+    padding: 1px;
+    background: #de003f;
+}
+
+#side{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    background: url(../image/fundo-caixa.png);
+}
+
+.menu-lateral{
+    width: 175px; 
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+#navigation-lateral{
+    background: #fff;
+    margin-bottom: 8px;
+}               
+
+#navigation-lateral ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#navigation-lateral li{
+    padding: 10px;
+}
+
+#navigation-lateral a{
+    color: #494949;
+}
+
+#form{
+    background: #fff;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#form input{
+    width: 130px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+#form button{
+    width: 80px;
+    padding: 5px;
+    color: #fff;
+    border: 2px solid #750021;
+    background: #b00434;
+}
+
+
