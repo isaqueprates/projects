@@ -1,2 +1,9 @@
-# cursoUdemy
- cursos feitos na plataforma Udemy
+# cursos
+
+ ##Neste repositório estarei colocando os cursos fiz nas plataformas: 
+
+-Udemy
+-Rocketseat
+-DIO
+-Alura
+-staart
