@@ -1,0 +1,44 @@
+ 
+ .water {
+     background-color: #0e0ee0;
+ }
+ 
+ .electric {
+     background-color: #e0e000;
+ }
+ 
+ .grass {
+     background-color: #0ee000;
+ }
+ 
+ .ice {
+     background-color: #0ee0e0;
+ }
+ 
+ .fighting {
+     background-color: #e00000;
+ }
+ 
+ .poison {
+     background-color: #e000e0;
+ }
+ 
+ .ground {
+     background-color: #e0c000;
+ }
+ 
+ .flying {
+     background-color: #00e0e0;
+ }
+ 
+ .psychic {
+     background-color: #e000e0;
+ }
+ 
+ .bug {
+     background-color: #00e000;
+ }
+ 
+ .fire {
+     background-color: #e00e0e;
+ }

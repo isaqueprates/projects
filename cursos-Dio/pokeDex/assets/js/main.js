@@ -1,16 +1,15 @@
 
 function criarCardPokemon(pokemon) {
-    return `<li class="pokemon">
-                <span class="number">#001</span>
+    return `<li class="pokemon ${pokemon.type}">
+                <span class="number">${pokemon.id}</span>
                 <span class="name">${pokemon.name}</span>
 
                 <div class="details">
                     <ul class="types">
-                        <li>poison</li>
-                        <li>grass</li>
+                        ${pokemon.types.map(type => `<li>${type}</li>`).join('')}
                     </ul>
 
-                    <img src="assets/img/16.svg" alt=" ${pokemon.name}">
+                    <img src="${pokemon.imagem}" alt=" ${pokemon.name}">
                 </div>
             </li>`
 }
