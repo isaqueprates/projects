@@ -1,6 +1,10 @@
 
 const pokeapi = {}
 
+function pagination(offset, limit) {
+    return `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
+}
+
 function detailsPokemonConvert(details) {
     const pokemon = new Pokemon();
     pokemon.name = details.name;
@@ -23,9 +27,9 @@ pokeapi.detailsPokemon = (pokemon) => {
     .then(detailsPokemonConvert)
 }
 
-pokeapi.getPokemon = (offset = 0, limite =15) => {
+pokeapi.getPokemon = (offset = 0, limite =25) => {
 
-    const url = `https://pokeapi.co/api/v2/pokemon?limit=${limite}&offset=${offset}`;
+    const url = pagination(offset, limite);
     return fetch(url)
         .then((response) => response.json()) // retorna um json
         .then((jsonBody) => jsonBody.results) //recebe o body
