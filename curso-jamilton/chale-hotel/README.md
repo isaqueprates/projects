@@ -1,4 +1,4 @@
-# Site ficticio criado pelo profª Jamilton Damasceno.
+# Site ficticio criado pelo prof. Jamilton Damasceno.
 
 ## Chalé Hotel
 
