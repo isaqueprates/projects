@@ -1,6 +1,6 @@
 # cursos
 
- ##Neste repositório estarei colocando os cursos fiz nas plataformas: 
+ #### Neste repositório estarei colocando os cursos que fiz nas plataformas: 
 
 - Udemy
 - Rocketseat
