@@ -2,7 +2,8 @@
 
 ## pokedex
 
-![app pokedex com três imagens tamnhos normais e responsivos](<App Pokedex.png>)
+![app pokedex com três imagens tamanhos normais e responsivos](<![AppPokedex](https://github.com/user-attachments/assets/b5f4ab85-0015-4bce-b885-3c18451411d8)
+>)
 
 Esses app foi desenvolvido usando as tecnológias:
 
@@ -11,6 +12,6 @@ Esses app foi desenvolvido usando as tecnológias:
 * JavaScript
 * NodeJs
 
-fique a vontade para fazer melhorias ou sugestoes 🤗
+Fique a vontade para fazer melhorias ou sugestoes 🤗
 
 ### Tera mais projetos aqui. Até lá. 😉🚀🚀🚀
