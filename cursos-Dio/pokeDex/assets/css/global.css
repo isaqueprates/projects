@@ -7,8 +7,10 @@
 }
 
 .content {
+  position: relative;
   width: 100vw;
   height: 100vh;
+  margin: 0 auto;
   padding: 1rem;
   overflow: auto;
   scrollbar-width: thin;
