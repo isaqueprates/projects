@@ -47,13 +47,3 @@ loadMore.addEventListener('click', () => {
     loadMore.parentElement.removeChild(loadMore);
   }
 })
-
-
-function verPokemon(pokemonData, e) {
-
-  const { id, name, types, imagem } = pokemonData;
-  const pokemonName = name;
-  
-  
-}
-
