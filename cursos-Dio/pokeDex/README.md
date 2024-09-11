@@ -2,7 +2,7 @@
 
 ## pokedex
 
-![app pokedex com três imagens tamnhos normais e responsivos](pokeDex/AppPokedex.png)
+![app pokedex com três imagens tamnhos normais e responsivos](AppPokedex.png)
 =======
 Esses app foi desenvolvido usando as tecnológias:
 
