@@ -1,8 +1,8 @@
 ## Projeto desafio da plataforma Digital innovation one (DIO)
 
-### Carrinho de compras da Shopee
+### Gerador de QR codes e senhas
 
-simulador do carrinho de compras da Shopee, este projeto foi construido com as tecnologias:
+Gerador de QR codes e de senhas, este projeto foi construido com as tecnologias:
 
 - JavaScript
 - nodeJs
@@ -10,8 +10,6 @@ simulador do carrinho de compras da Shopee, este projeto foi construido com as t
 não tem interface visual, mas quero aprimorar ele e colocar uma interface 😉
 
 Projeto este que foi passado como desafio pela Digital innovation one (DIO).
-
-Através deste projeto conseguir revisar alguns conhecimentos em JavaScript e nodeJs.
 
 Me siga nas redes socias para me conhecer melhor 😀
 

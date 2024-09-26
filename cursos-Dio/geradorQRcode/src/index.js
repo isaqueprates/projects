@@ -1,12 +1,14 @@
 import prompt from "prompt";
-import mainPrompt from "./prompts/promptMain.js";
+import mainPrompt from "./promptsSchema/schemaMain.js";
 import chalk from "chalk";
+import createQrCode from "./services/qrCode/create.js";
+import createPassword from "./services/password/create.js";
 
-function main() {
+async function main() {
    
-    prompt.get(mainPrompt, (err, result) => {
-        if(result.selected == 1) console.log(chalk.black.bgCyan.bold("Opção 1 selecionada, QR code"));
-        if(result.selected == 2) console.log(chalk.black.bgCyan.bold("Opção 2 selecionada, password "));
+    prompt.get(mainPrompt, async (err, result) => {
+        if(result.selected == 1) await createQrCode();
+        if(result.selected == 2) await createPassword();
 
 });
 
