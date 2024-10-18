@@ -25,7 +25,7 @@ Instruções para instalar e configurar o projeto.
 
 ```bash
 # Clonando o repositório
-git clone https://github.com/seu-usuario/gerenciadordepodcast.git
+git clone https://github.com/isaquePrates/gerenciadordepodcast.git
 
 # Navegando para o diretório do projeto
 cd gerenciadordepodcast
