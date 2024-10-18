@@ -34,10 +34,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clonando o repositório
-git clone https://github.com/isaquePrates/gerenciadordepodcast.git
+git clone https://github.com/isaquePrates/formula1.git
 
 # Navegando para o diretório do projeto
-cd gerenciadordepodcast
+cd formula1
 
 # Instalando as dependências
 npm install
