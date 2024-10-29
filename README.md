@@ -1,9 +1,12 @@
-# cursos
+# My projects
 
- #### Neste repositório estarei colocando os cursos que fiz nas plataformas: 
+  Neste repositório estarei colocando os projetos que tenho feito. 
 
-- Udemy
-- Rocketseat
-- DIO
-- Alura
-- staart
+## Projetos criado nas respectivas plataformas:
+  
+  - Udemy
+  - Rocketseat
+  - DIO
+  - Alura
+  - staart
+
