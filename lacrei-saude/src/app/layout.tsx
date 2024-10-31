@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Image from "../utils/assets/imagens/logo.png";
+
+import { Header } from "./header/header";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,17 +27,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <header className="flex justify-between items-center border-b text-black bg-white ">
-          <div className="mx-8"><img src={Image.src} alt="logo" /></div>
-          <nav className="flex gap-4 justify-end mx-10 ">
-            <a className="p-2 rounded-md bg-foreground text-background hover:bg-background hover:text-foreground" href="http://localhost:3000/">Home</a>
-            <a className="p-2 rounded-md bg-foreground text-background hover:bg-background hover:text-foreground" href="/about">About</a>
-            <a className="p-2 rounded-md bg-foreground text-background hover:bg-background hover:text-foreground" href="/contact">Contact</a>
-          </nav>
-        </header>
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <Header />
         {children}
       </body>
     </html>

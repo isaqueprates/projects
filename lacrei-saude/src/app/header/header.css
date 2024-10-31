@@ -1,0 +1,29 @@
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    background-color: white;
+}
+
+.logo {
+    margin: 0 1.5rem;
+}
+
+.container-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-right: 10px;
+}
+
+.iten-menu {
+    padding: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.iten-menu:hover {
+    background-color: #e0e0e0;
+}
