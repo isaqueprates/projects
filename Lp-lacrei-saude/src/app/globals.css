@@ -1,0 +1,43 @@
+:root {
+  --background: #018761;
+  --foreground: #008392;
+  --colorWhite: #ffffff;
+  --colorBlack: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #018761;
+    --foreground: #008392;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background: radial-gradient(circle,#018761fd ,#008492); 
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
