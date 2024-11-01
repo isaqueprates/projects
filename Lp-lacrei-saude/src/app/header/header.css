@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     color: black;
+    font-weight: 600;
     background-color: var(--colorWhite);
 }
 
@@ -25,5 +26,5 @@
 }
 
 .iten-menu:hover {
-    background: radial-gradient(circle ,var(--background), var(--foreground));
+    background-image: linear-gradient(to right, var(--foreground), #03be80);
 }

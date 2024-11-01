@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Footer from "../app/components/footer/footer";
 
 import Image from "../app/assets/imagens/logo.png";
 
@@ -36,6 +37,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Header />
         {children}
+        <Footer/>
       </body>
     </html>
   );
