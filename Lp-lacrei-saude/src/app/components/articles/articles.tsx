@@ -1,7 +1,7 @@
 "use client";
 import "./articles.css";
-import image from "../assets/imagens/person-professional.e0f3da65.png";
-import image2 from "../assets/imagens/purpose-image.3e0752bb.png";
+import image from "../../assets/imagens/person-professional.e0f3da65.png";
+import image2 from "../../assets/imagens/purpose-image.3e0752bb.png";
 import React from "react";
 import Link from "next/link";
 

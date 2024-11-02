@@ -52,8 +52,9 @@
 .carousel .next {
   position: absolute;
   top: 20px;
+  bottom: 20px;
   width: 20px;
-  height: 90%;
+  margin: 0 8px;
   display: flex;
   align-items: center;
   color: #f8f8f8;
@@ -78,10 +79,21 @@
   opacity: 1;
 }
 
-/* Responsividade */
+@media screen and (min-width: 1000px) {
+  .carousel,
+  .carousel-slide {
+    max-width: 1400px;
+  }
+   
+  .carousel img {
+    max-width: 1400px;
+    object-fit: fill;
+  }
+}
+
 @media (max-width: 768px) {
   .carousel {
-      height: 50vh; /* Reduz a altura em telas menores */
+      height: 50vh; 
   }
 
   .carousel-slide {
@@ -91,8 +103,8 @@
   .carousel .prev,
   .carousel .next {
       top: 10px;
+      bottom: 10px;
       width: 15px;
-      height: 80%;
   }
 
   .carousel-indicators button {
@@ -113,7 +125,6 @@
   .carousel .prev,
   .carousel .next {
       width: 10px;
-      height: 75%;
   }
 
   .carousel-indicators button {

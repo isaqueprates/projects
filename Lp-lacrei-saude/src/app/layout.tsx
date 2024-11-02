@@ -6,7 +6,7 @@ import Footer from "../app/components/footer/footer";
 
 import Image from "../app/assets/imagens/logo.png";
 
-import { Header } from "./header/header";
+import { Header } from "../app/components/header/header";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

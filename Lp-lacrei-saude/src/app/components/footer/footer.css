@@ -29,7 +29,16 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsividade para telas menores */
+.footer h4 {
+    margin-right: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        border-radius: 6px;
+    }
+}
+
 @media (max-width: 768px) {
     .container-footer {
         grid-template-columns: 1fr;

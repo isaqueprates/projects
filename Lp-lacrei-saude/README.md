@@ -1,8 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Site ficticio da Lacrei saúde 
 
-## Getting Started
+   Este site foi criado com fins educativos como parte de um desafio. A proposta era desenvolver duas páginas criativas com navegação entre elas, e optei por criar uma versão inspirada no site da empresa que me deu essa tarefa.
 
-First, run the development server:
+    Observação: Todas as imagens utilizadas no site são de acesso restrito e foram usadas apenas para fins educativos. A reutilização sem as devidas autorizações está proibida.
+
+## sobre o projeto
+
+   Este projeto foi bastante desafiador, pois meu conhecimento em React e Next.js era básico. No entanto, com muita dedicação, consegui desenvolver uma aplicação simples que me permitiu aprender muito.
+
+## Iniciando o Projeto
+
+Para iniciar o servidor de desenvolvimento, execute o seguinte comando:
 
 ```bash
 npm run dev
@@ -13,24 +21,29 @@ pnpm dev
 # or
 bun dev
 ```
+Abra http://localhost:3000 no navegador para visualizar o projeto.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias Usadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   - Next.js: Framework para construir aplicações web escaláveis e performáticas.
+   - React: Biblioteca JavaScript para construir interfaces de usuário.
+   - TypeScript: Superset do JavaScript que adiciona tipagem estática e outras funcionalidades.
+   - Turbopack: Ferramenta de build e pacote para Next.js.
+   - Vercel: Plataforma de hospedagem e deploy para aplicações web.
+    
+## Formas de Inicialização
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Build e Deploy
 
-## Learn More
+    Para criar uma versão de produção da aplicação, siga os passos abaixo:
 
-To learn more about Next.js, take a look at the following resources:
+1. Build: Execute npm run build ou yarn build para gerar a build da aplicação.
+2. Servidor de Produção: Após a build, execute npm run start ou yarn start para iniciar o servidor de produção.
+3. Deploy: Realize o deploy na Vercel, seguindo as instruções na [documentação de deploy do Next.js.](https://nextjs.org/docs/pages/building-your-application/deploying)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Outras Informações
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este projeto foi inicializado com create-next-app. Para mais informações:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Consulte a [documentação oficial do Next.js.](https://nextjs.org/docs)
+- Consulte a [documentação oficial da Vercel.](https://vercel.com/docs)

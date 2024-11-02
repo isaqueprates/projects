@@ -1,10 +1,10 @@
 "use client";
-import about from "./imagens/img1.jpg";
-import mission from "./imagens/img2.jpg";
-import people from "./imagens/img3.jpg";
+import about from "../../assets/imagens/img1.jpg";
+import mission from "../../assets/imagens/img2.jpg";
+import people from "../../assets/imagens/img3.jpg";
 
 import React, { useState } from "react";
-import "../slider/slider.css";
+import "./slider.css";
 
 export const imagens = [
    {img:about,decription:"card com imagem e descrição"},
